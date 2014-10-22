@@ -1,0 +1,25 @@
+{
+    "name": "phpmentors/domain-coder-metamodel",
+    "description":"",
+    "keywords":[],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "GOTO Hidenori",
+            "email": "hidenorigoto@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "config":{
+        "bin-dir": "bin"
+    },
+    "autoload":{
+        "psr-4":{
+            "DomainCoder\\Model\\": "src/"
+        }
+    }
+}
